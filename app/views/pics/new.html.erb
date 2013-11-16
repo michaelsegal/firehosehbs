@@ -1,0 +1,10 @@
+<h2 class="boxy span4 text-center">
+
+<%= simple_form_for @pic do |f|%>
+	<%= f.input :lesson %>
+	<%= f.input :emotion %> 
+	<%= f.input :learned %>
+	<%= submit_tag "Save", :class=>'btn btn-info btn-large' %> 
+<% end %>	
+
+</h2>
