@@ -24,14 +24,16 @@ body {
     font-weight: 100;
     font-size: 64px;
     color: #ffffff;
+    text-align: center;
 }
 
 .h2-custom {
 	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 200;
-    font-size: 21px;
+    font-size: 20px;
         color: #ffffff;
     line-height:30px;
+    text-align:center;
 }
 
 .boxybody {
@@ -39,5 +41,5 @@ body {
 }
 
 .boxybutton {
-	text-align: left;
+	text-align: center;
 }
