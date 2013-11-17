@@ -1,10 +1,14 @@
-<h2 class="boxy span4 text-center">
+<div class="span6 offset4 text-center boxy">
+
+<h1 class="h1-custom">
+	Upload Another Lesson
+</h1>
 
 <%= simple_form_for @pic do |f|%>
-	<%= f.input :lesson %>
-	<%= f.input :emotion %> 
-	<%= f.input :learned %>
+	<%= f.input :lesson, :label => 'The Lesson', placeholder: '1'%>
+	<%= f.input :emotion, label: 'How Are You Feeling?', placeholder: 'Feeling Jazzed' %> 
+	<%= f.input :learned, label: 'What Did You Learn?', placeholder: 'PostgresQL' %>
 	<%= submit_tag "Save", :class=>'btn btn-info btn-large' %> 
 <% end %>	
 
-</h2>
+<div>
