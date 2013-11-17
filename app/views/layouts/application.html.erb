@@ -22,7 +22,7 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">Michael Segal</a>
+  	  		<%= link_to 'Michael Segal', root_path, :class=>'brand' %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
 
@@ -30,14 +30,21 @@
         <!-- .nav, .navbar-search, .navbar-form, etc -->
   	  <ul class="nav">
   	  	<li>
-  	  		<%= link_to 'LinkedIn','#' %>
+  	  		<%= link_to 'LinkedIn','www.linkedin.com/in/michaelsegal' %>
   	  	</li>
   	  	<li>
-  	  		<%= link_to 'Twitter','#' %>
+  	  		<%= link_to 'Twitter','www.twitter.com/michaelsegal' %>
   	  	</li>
   	  	<li>
-  	  		<%= link_to 'Curio Road','#' %>
+  	  		<%= link_to 'Curio Road','http://www.curioroad.com' %>
   	  	</li>
+  	  	  	<li>
+  	  		<%= link_to 'My App', pics_path %>
+  	  	</li>
+  	  	  	<li>
+  	  		<%= link_to 'New Pic', new_pic_path %>
+  	  	</li>
+
     </ul>
 
       </div>
