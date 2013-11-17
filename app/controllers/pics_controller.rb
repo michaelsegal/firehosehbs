@@ -22,7 +22,7 @@ end
 private
 
 def pic_params
-	params.require(:pic).permit(:learned, :emotion, :lesson)
+	params.require(:pic).permit(:learned, :emotion, :lesson, :image)
 end
 
 
